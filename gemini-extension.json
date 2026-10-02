@@ -1,0 +1,6 @@
+{
+  "name": "hawkinsonwb-skills",
+  "version": "0.5.0",
+  "description": "Brandon's reusable agent skills.",
+  "contextFileName": "AGENTS.md"
+}

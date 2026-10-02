@@ -1,0 +1,12 @@
+{
+  "name": "hawkinsonwb-skills",
+  "metadata": { "description": "Reusable skills across agent harnesses." },
+  "owner": { "name": "Brandon Hawkinson" },
+  "plugins": [
+    {
+      "name": "hawkinsonwb-skills",
+      "source": "./",
+      "description": "Brandon's reusable agent skills."
+    }
+  ]
+}

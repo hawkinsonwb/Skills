@@ -1,0 +1,11 @@
+{
+  "name": "hawkinsonwb-skills",
+  "version": "0.5.0",
+  "description": "Brandon's reusable agent skills.",
+  "author": {
+    "name": "Brandon Hawkinson"
+  },
+  "repository": "https://github.com/hawkinsonwb/Skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}

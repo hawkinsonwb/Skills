@@ -1,0 +1,18 @@
+name: Validate skills packaging
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  packaging:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check generated harness files
+        run: python3 scripts/build-harness-files.py --check
+      - name: Test harness generation
+        run: python3 -m unittest discover -s tests
